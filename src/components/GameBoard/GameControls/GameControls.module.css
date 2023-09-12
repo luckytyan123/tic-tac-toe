@@ -1,0 +1,47 @@
+.title{
+    font-size: 36px;
+}
+.gameControlsContainer{
+    border-top: 1px solid #f4f4f4;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 12px 18px;
+    align-items: center;
+}
+
+.buttonContainer{
+    flex-grow: 1;
+    align-self: center;
+}
+
+.btnPrimary, .btnSecondary{
+    padding: 12px 18px;
+    border-radius: 5px;
+    border: 1px solid #CECE5A;
+    font-weight: 700;
+}
+.btnPrimary{
+    background-color: #CECE5A;
+    color: #fff;
+}
+.btnSecondary{
+    background-color: #fff;
+    color: #808080;
+    border-color: #808080;
+}
+.btnPrimary:hover{
+    background-color: #f4f4f4;
+    color: #CECE5A;
+    background-color: #fff;
+    font-weight: 700;
+}
+.btnSecondary:hover{
+    color: #fff;
+    background-color: #808080;
+    border-color: #f4f4f4;
+}

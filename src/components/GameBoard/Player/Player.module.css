@@ -1,0 +1,13 @@
+.player, .score{
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
+}
+.score{
+    font-size: 36px;
+}
+.item {
+    flex-grow: 1;
+    flex-basis: 25%;
+    align-self: center;
+}

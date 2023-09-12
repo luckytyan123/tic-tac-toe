@@ -1,0 +1,34 @@
+.circleContainer{
+    display: flex;
+    align-items: center;
+    font-size: 80%;
+    flex-direction: row;
+    justify-content: center;
+}
+.circleFill, .circle{
+    flex-grow: 1;
+    aspect-ratio: 1;
+    width: 100%;
+    margin: 0 2px;
+    border: 1px solid #f4f4f4;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.circleFill{
+    background-color: #FFC6AC;
+}
+.matchBox{
+    flex-grow: 1;
+    aspect-ratio: 1;
+    width: 100%;
+    margin: 0 2px;
+    display: inline-block;
+    border: 1px solid #f4f4f4;
+    height: 100%;
+    align-self: center;
+}
+.title{
+    font-size: 18px;
+    font-weight: 700;
+}
